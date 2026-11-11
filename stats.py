@@ -18,7 +18,4 @@ def pass_count(marks, pass_mark):
 		if mark >=
 def pass_count(marks, pass_mark):
 	return len([mark for mark in marks if mark >= pass_mark])
-from stats import average, highest, lowest, pass_count
-...
-	pass_mark = int(settings["PASS_MARK"])
-	print("Passed :", pass_count(MARKS, pass_mark), "of", len(MARKS))
+
