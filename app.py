@@ -16,7 +16,4 @@ def main():
 
 if __name__ == "__main__":
 	main()
-from stats import average, highest, lowest, pass_count
-...
-	pass_mark = int(settings["PASS_MARK"])
-	print("Passed :", pass_count(MARKS, pass_mark), "of", len(MARKS))
+
